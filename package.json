@@ -1,0 +1,13 @@
+{
+  "name": "studymate",
+  "version": "1.0.0",
+  "description": "StudyMate - Student Productivity Dashboard",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve -s . -l 3000",
+    "start:railway": "serve -s . -l $PORT"
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}
